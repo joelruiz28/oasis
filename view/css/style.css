@@ -1,0 +1,190 @@
+.video-container {
+    position: relative;
+    height: 100vh; 
+    overflow: hidden;
+}
+
+.video-background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+
+footer {
+    position: fixed; 
+    left: 0;
+    bottom: 0;
+    width: 100%; 
+    background-color: rgb(18, 145, 119); 
+    color: rgb(248, 239, 239); 
+    height: 80px; 
+    text-align: center; 
+    line-height: 80px; 
+    z-index: 1000;
+    width: 100%;
+}
+
+
+
+header {
+    background-color: #0d622c; 
+    padding: 5px 0; 
+    color: rgb(226, 32, 32); 
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+header a {
+    color: #ffffff; /* Cambia a blanco o el color que desees */
+    text-decoration: none; /* Elimina el subrayado, si no lo deseas */
+}
+
+header a:hover {
+    color: #f0f0f0; /* Cambia el color al pasar el ratón */
+}
+
+.logo {
+    margin-right: 10px; 
+    display: flex;
+    align-items: center; 
+}
+
+.navbar {
+    flex-grow: 1; 
+}
+
+.navbar-nav {
+    display: flex; 
+    justify-content: center; 
+}
+
+.nav-link {
+    color: rgb(242, 234, 234); 
+}
+
+.nav-link:hover {
+    color: rgb(222, 213, 34); 
+}
+
+.welcome-header {
+    position: relative; 
+    color: white; 
+    z-index: 1; 
+    margin-top: 200px; 
+}
+
+.welcome-header h1 {
+    font-size: 3rem; 
+    margin: 0; 
+}
+
+.welcome-header p {
+    font-size: 1.5rem; 
+    margin: 0; 
+}
+
+/* Estilos para secciones */
+.section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    color: white;
+    text-align: center;
+}
+
+.section-content {
+    background-color: rgba(0, 0, 0, 0.6); 
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.section h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    max-width: 600px; 
+}
+
+.section a.btn {
+    font-size: 1.2rem;
+    color: white;
+    background-color: #157548; 
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.section a.btn:hover {
+    background-color: #004b23; 
+}
+
+.destinos {
+    background: url('../img/imagen1.jpg') no-repeat center center/cover;
+}
+
+.reservaciones {
+    background: url('../img/imagen2.jpg') no-repeat center center/cover;
+}
+
+.blog-viajes {
+    background: url('../img/imagen3.jpg') no-repeat center center/cover;
+}
+
+.servicios-turisticos {
+    background: url('../img/imagen4.jpg') no-repeat center center/cover;
+}
+
+.chiapas {
+    background: url('../img/imagen5.jpg') no-repeat center center/cover;
+}
+
+.contacto {
+    background: url('../img/imagen6.jpg') no-repeat center center/cover;
+}
+.destinos-section {
+    position: relative;
+    background-image: url('view/img/imagen2.jpg'); /* Cambia la ruta a la imagen que deseas */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* La imagen ocupa toda la altura de la ventana del navegador */
+    width: 100%; /* Asegura que ocu
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+  
+  .destinos-overlay {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo traslúcido */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    max-width: 600px;
+    border-radius: 10px; /* Opcional: esquinas redondeadas */
+  }
+  
+  .destinos-overlay h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  .destinos-overlay p {
+    font-size: 1.2em;
+  }
+  
